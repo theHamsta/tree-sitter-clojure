@@ -12,7 +12,7 @@
 const DIGITS = token(sep1(/[0-9]+/, /_+/))
 
 module.exports = grammar({
-  name: 'clojure',
+  name: 'lisp',
 
   extras: $ => [
     /(\s|,)/ // ignore whitespace and commas
